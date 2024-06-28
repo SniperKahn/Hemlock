@@ -31,3 +31,4 @@ app.post('/download', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+import { SpeedInsights } from "@vercel/speed-insights/next"
